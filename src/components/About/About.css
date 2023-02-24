@@ -1,0 +1,57 @@
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: black;
+}
+
+.about__data {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about__imagedata {
+  height: auto;
+  width: 430px;
+}
+
+.about__image {
+  width: 400px;
+  height: 510px;
+}
+
+.about__details {
+  width: 550px;
+}
+
+.about__title {
+  color: rgb(246, 191, 246);
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+
+.about__role{
+    color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+
+.about__disc{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px !important;
+	margin-bottom: 45px !important;
+}
+
+.aboutbtn--state-talk{
+    background-color:  rgb(246, 191, 246) !important;
+}

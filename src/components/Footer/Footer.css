@@ -1,0 +1,12 @@
+.footer{
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+}
+
+.footer__menu{
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 19px;
+}
