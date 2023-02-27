@@ -1,18 +1,25 @@
 import { Box, Heading, Flex, Spacer } from "@chakra-ui/layout";
-import { Button } from "@chakra-ui/react";
+import { Button,Image } from "@chakra-ui/react";
 import React from "react";
 import "./About.css";
+import Logo from '../../assests/logo.jpeg'
+
+
 function About() {
   return (
     <Box className="about">
       <Flex className="about__data">
         <Box className="about__imagedata">
-          <img src="https://roaring-lokum-14859c.netlify.app/img/main-img.jpeg" alt="aboutimage" className="about__image"/>
+          <Image src={Logo} alt="aboutimage" className="about__image" />
         </Box>
-<Spacer/>
+        <Spacer />
         <Box className="about__details">
-          <Heading as="h1" className="about__title">About Me</Heading>
-          <Heading as="h6" className="about__role">Developer & Designer</Heading>
+          <Heading as="h1" className="about__title">
+            About Me
+          </Heading>
+          <Heading as="h6" className="about__role">
+            Developer & Designer
+          </Heading>
           <Heading as="p" className="about__disc">
             I am a front-end web developer. I can provide clean code and pixel
             perfect design. I also make the website more & more interactive with
