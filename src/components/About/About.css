@@ -55,3 +55,25 @@
 .aboutbtn--state-talk{
     background-color:  rgb(246, 191, 246) !important;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .about__data {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__details {
+  position: relative;
+    left: 8px;
+    top: 44px;
+    width: 384px;
+}
+
+
+
+
+}
